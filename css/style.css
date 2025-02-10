@@ -54,6 +54,8 @@
     margin: 30px 0;
     border-radius: 20px;
     padding: 40px 10px;
+    border: 1px solid #ffa3c142;
+    position: relative;
 }
 
 .banner-section .btn {
@@ -85,6 +87,7 @@
     font-size: 26px;
     font-weight: 600;
     text-align: center;
+    line-height: 40px;
 }
 
 .heading span {
@@ -97,6 +100,7 @@
     border-radius: 20px;
     margin-bottom: 40px;
     position: relative;
+    border: 1px solid #09325b21;
 }
 
 .border-right {
@@ -111,10 +115,19 @@
     bottom: 0;
 }
 
+.border-left img, .border-right img {
+    border-radius: 20px;
+}
+
 .learn-box {
     margin-bottom: 50px;
     border-left: 1px solid #1218281c;
     padding-left: 20px;
+}
+
+.learn-banner {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .number {
@@ -155,12 +168,12 @@
 }
 
 .testimonials-content .heading {
-    padding: 20px;
+    text-align: left;
 }
 
 .testimonials-slider {
     background-color: #09325B;
-    padding: 20px;
+    padding: 40px 20px 140px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -171,6 +184,7 @@
     background-color: white;
     border-radius: 30px;
     padding: 24px;
+    text-align: center;
 }
 
 .testimonial-title {
@@ -197,6 +211,7 @@
     border-radius: 20px;
     padding: 20px;
     margin: 40px 0;
+    border: 1px solid #09325b21;
 }
 
 .register-now {
@@ -226,8 +241,9 @@
 }
 
 .bg-shadow {
-    position: relative;
-    height: 36px;
+    position: absolute;
+    height: 80px;
+    z-index: 99;
 }
 
 .project-card {
@@ -320,22 +336,24 @@
 }
 
 .faq {
-    background-color: #F9FBFF;
     padding: 50px 0;
-    border-radius: 20px;
-    margin: 60px 0;
 }
 
 .accordion-item, .accordion-button, .accordion-button:not(.collapsed) {
     background-color: transparent;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #09325B;
+    font-weight: 500;
+}
+
 .accordion-button {
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .accordion-body {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .accordion-button:focus {
@@ -396,7 +414,7 @@
 }
 
 .carousel-indicators {
-    bottom: -120px;
+    bottom: -70px;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -421,6 +439,8 @@
     right: 0;
     z-index: 1;
     width: 110px;
+    margin: 0 auto;
+    left: 0;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -451,14 +471,22 @@
     background-image: url(../images/border-2.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .border-line-three {
     background-image: url(../images/border-2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+    .user-section {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -475,7 +503,7 @@
         justify-content: center;
     }
 
-    .banner-section img {
+    .banner-section-img img {
         padding-right: 60px;
     }
 
@@ -485,6 +513,7 @@
 
     .banner-section {
         padding: 0;
+        border: 0;
     }
 
     .banner-tag {
@@ -508,6 +537,7 @@
 
     .learn-section{
         padding: 60px;
+        border: 0;
     }
 
     .number {
@@ -542,13 +572,31 @@
         margin-bottom: 40px;
     }
 
+    .testimonial-card {
+        text-align: left;
+    }
+
     .testimonials-content .heading {
         padding: 30px;
+    }
+
+    .testimonials-slider {
+        padding: 20px;
+    }
+
+    .carousel-indicators {
+        bottom: -120px;
+    }
+
+    .carousel-arrows {
+        margin: 0 auto;
+        left: inherit;
     }
 
     .project-highlights {
         padding: 75px 80px 40px;
         margin: 100px 0;
+        border: 0;
     }
 
     .register-now {
@@ -583,6 +631,25 @@
 
     .border-line, .border-line-two, .border-line-three  {
         padding-bottom: 20px;
+    }
+
+    .bg-shadow {
+        margin-top: -40px;
+    }
+
+    .faq {
+        background-color: #F9FBFF;
+        padding: 50px 0;
+        border-radius: 20px;
+        margin: 60px 0;
+    }
+
+    .accordion-button {
+        font-size: 22px;
+    }
+    
+    .accordion-body {
+        font-size: 20px;
     }
     
   }

@@ -50,6 +50,9 @@
   <!-- Banner -->
   <div class="container-xl">
     <div class="banner-section">
+      <div class="border-right">
+        <img src="./images/banner-right-line.png" width="260" height="130" alt="bg-line" class="img-fluid" />
+      </div>
       <div class="row">
         <div class="col-md-8 d-flex">
           <div class="banner-content align-self-center">
@@ -59,12 +62,15 @@
               <p class="banner-desc">Gain a competitive edge with our in-person Generative AI training
                 program. Develop practical skills, receive real-time mentorship, and
                 unlock new opportunities in this rapidly expanding field.</p>
-              <button type="button" class="btn btn-primary">Unlock Free Resources & Gain Early Access</button>
+              <button type="button" class="btn btn-primary">Unlock Free Resources & Gain Early Access <img src="./images/arrow.png" alt="arrow" class="ps-2 pe-2" /></button>
           </div>
         </div>
-        <div class="col-md-4 d-none d-md-flex justify-content-center">
+        <div class="col-md-4 d-none d-md-flex justify-content-center banner-section-img">
           <img src="./images/woman-is-holding-blue-folder-with-blue-folder-it.png" alt="woman-is-holding-blue-folder-with-blue-folder-it" class="img-fluid" />
         </div>
+      </div>
+      <div class="border-left">
+        <img src="./images/banner-left-line.png" width="260" height="130" alt="bg-line" class="img-fluid" />
       </div>
     </div>
   </div>
@@ -80,7 +86,9 @@
             <h2 class="heading mb-5">
               What You Will
             </br><span class="border-line-two">Learn</span></h2>
+            <div class="learn-banner">
               <img src="./images/happy-professional-asian-female-manager-businesswoman-suit-showing-announcement-smiling-pointing-finger-left-product-project-banner.png" alt="happy-professional-asian-female-manager-businesswoman-suit-showing-announcement-smiling-pointing-finger-left-product-project-banner" class="img-fluid d-none d-md-flex" />
+            </div>
           </div>
           <div class="col-md-6">
             <div class="learn-box">
@@ -134,8 +142,7 @@
             <div class="program-content rounded-0">
               <h2 class="heading text-white"> 
                 <span class="border-line-two">500+</span> Students</br>
-                mentored in last </br>
-                2 years
+                mentored in last 2 years
               </h2>
             </div>
           </div>
@@ -145,9 +152,9 @@
             <div class="border-right">
               <img src="./images/left-line.png" width="260" height="130" alt="bg-line" class="img-fluid" />
             </div>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" dat-bs-ride="false">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active">
                   <div class="carousel-content">
                     <div class="row">
                       <div class="col-md-6">
@@ -155,7 +162,7 @@
                           <img src="./images/quote.svg" alt="quote"/>
                           <p class="testimonial-title">Used these skills to land my first tech internship</p>
                           <p class="testimonial-desc">The in-person training was an incredible experience. The hands-on projects and real-time mentorship helped me truly understand how to use Generative AI effectively.</p>
-                          <div class="d-flex">
+                          <div class="d-flex user-section">
                             <img src="./images/user.png" alt="user" width="70" height="70" />
                             <div class="ps-3">
                               <p class="testimonial-user">Amit S</p>
@@ -164,12 +171,12 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 d-none d-md-block">
                         <div class="testimonial-card">
                           <img src="./images/quote.svg" alt="quote"/>
                           <p class="testimonial-title">Used these skills to land my first tech internship</p>
                           <p class="testimonial-desc">The in-person training was an incredible experience. The hands-on projects and real-time mentorship helped me truly understand how to use Generative AI effectively.</p>
-                          <div class="d-flex">
+                          <div class="d-flex user-section">
                             <img src="./images/user.png" alt="user" width="70" height="70" />
                             <div class="ps-3">
                               <p class="testimonial-user">Amit S</p>
@@ -181,7 +188,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
                   <div class="carousel-content">
                     <div class="row">
                       <div class="col-md-6">
@@ -189,7 +196,7 @@
                           <img src="./images/quote.svg" alt="quote"/>
                           <p class="testimonial-title">Used these skills to land my first tech internship</p>
                           <p class="testimonial-desc">The in-person training was an incredible experience. The hands-on projects and real-time mentorship helped me truly understand how to use Generative AI effectively.</p>
-                          <div class="d-flex">
+                          <div class="d-flex user-section">
                             <img src="./images/user.png" alt="user" width="70" height="70" />
                             <div class="ps-3">
                               <p class="testimonial-user">Amit S</p>
@@ -198,12 +205,12 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 d-none d-md-block">
                         <div class="testimonial-card">
                           <img src="./images/quote.svg" alt="quote"/>
                           <p class="testimonial-title">Used these skills to land my first tech internship</p>
                           <p class="testimonial-desc">The in-person training was an incredible experience. The hands-on projects and real-time mentorship helped me truly understand how to use Generative AI effectively.</p>
-                          <div class="d-flex">
+                          <div class="d-flex user-section">
                             <img src="./images/user.png" alt="user" width="70" height="70" />
                             <div class="ps-3">
                               <p class="testimonial-user">Amit S</p>
@@ -220,7 +227,6 @@
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-arrows">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -263,47 +269,39 @@
                 <img src="./images/GraduationCap.png" alt="graduation-cap" />
               </div>
               <div>
-                <p class="project-title">5-Day Intensive In-Person Training:</p>
-                <p class="project-desc">[Start Date] - [End Date]</p>
+                <p class="project-title">Portfolio Development:</p>
+                <p class="project-desc">Build real-world projects to showcase
+                  your skills.</p>
               </div>
             </div>
             <div class="project-card d-flex">
               <div class="project-box">
-                <img src="./images/GraduationCap.png" alt="graduation-cap" />
+                <img src="./images/video-camera.png" alt="video-camera" />
               </div>
               <div>
-                <p class="project-title">5-Day Intensive In-Person Training:</p>
-                <p class="project-desc">[Start Date] - [End Date]</p>
+                <p class="project-title">Industry-Recognized Certificate:</p>
+                <p class="project-desc">Earn formal recognition of your expertise.</p>
               </div>
             </div>
             <div class="project-card d-flex">
               <div class="project-box">
-                <img src="./images/GraduationCap.png" alt="graduation-cap" />
+                <img src="./images/UsersThree.png" alt="UsersThree" />
               </div>
               <div>
-                <p class="project-title">5-Day Intensive In-Person Training:</p>
-                <p class="project-desc">[Start Date] - [End Date]</p>
-              </div>
-            </div>
-            <div class="project-card d-flex">
-              <div class="project-box">
-                <img src="./images/GraduationCap.png" alt="graduation-cap" />
-              </div>
-              <div>
-                <p class="project-title">5-Day Intensive In-Person Training:</p>
-                <p class="project-desc">[Start Date] - [End Date]</p>
+                <p class="project-title">Networking Opportunities:</p>
+                <p class="project-desc">Connect with peers and industry mentors.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="register-now">
               <img src="./images/portrait-handsome-smiling-young-man-with-folded-arms-laughing-joyful-cheerful-men-with-crossed-hands-studio-shot-isolated.png" alt="portrait-handsome-smiling-young-man-with-folded-arms-laughing-joyful-cheerful-men-with-crossed-hands-studio-shot-isolated" class="img-person img-fluid" />
-              <!-- <div class="bg-shadow">
-                <img src="./images/blue-rectangle.png" height="36" alt="" />
-              </div> -->
+              <div class="bg-shadow">
+                <img src="./images/blue-rectangle.png" height="80" alt="rectangle" />
+              </div>
               <div class="register-now-content">
                 <p class="register-now-content-title">Register now and get instant access to 10+ FREE resources</p>
-                <button type="button" class="btn btn-primary">Register Now</button>
+                <button type="button" class="btn btn-primary">Register Now <img src="./images/arrow.png" alt="arrow" class="ps-2 pe-2" /></button>
               </div>
             </div>
           </div>
@@ -398,7 +396,7 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-md-4">
-            <img src="./images/footer-logo.svg" alt="Logo" />
+            <img src="./images/footer-logo.svg" alt="Logo" class="pt-2" />
 
             <h3 class="footer-tagline">Empowering </br> Business with </br> Technology Solutions</h3>
             <p>@2025 NYL Technology. All rights reserved</p>
