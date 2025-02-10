@@ -96,6 +96,19 @@
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 40px;
+    position: relative;
+}
+
+.border-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.border-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .learn-box {
@@ -151,6 +164,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .testimonial-card {
