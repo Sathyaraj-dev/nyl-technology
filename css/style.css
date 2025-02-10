@@ -1,0 +1,574 @@
+@media (max-width: 767px) {
+    .container-xl {
+        padding: 0 20px;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid #E7E9EB;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #425466;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #FF1261 !important;
+}
+
+.navbar-toggler {
+    border-color: #09325B;
+    border-width: 2px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+CiAgPHBhdGggc3Ryb2tlPSIjMDkzMjVCIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNNCA3aDIyTTQgMTVoMjJNNCAyM2gyMiIvPgo8L3N2Zz4K);
+}
+
+.offer-section {
+    background-color: #09325B;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer-section ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    overflow: auto;
+}
+
+.offer-section li {
+   margin-left: 32px;
+   white-space: nowrap;
+}
+
+.banner-section {
+    background-color: #fff9fb;
+    margin: 30px 0;
+    border-radius: 20px;
+    padding: 40px 10px;
+}
+
+.banner-section .btn {
+    width: 100%;
+}
+
+.text-blue {
+    color: #09325B;
+}
+
+.banner-desc {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.banner-tag {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #09325B;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner-section .heading {
+    text-align: left;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading span {
+    color:  #FF1261;
+}
+
+.learn-section{
+    background-color: #F9FBFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.learn-box {
+    margin-bottom: 50px;
+    border-left: 1px solid #1218281c;
+    padding-left: 20px;
+}
+
+.number {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09325B;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.sub-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #09325B;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #425466;
+}
+
+.testimonials-content {
+    background: url(../images/portrait-professor-work-educational-system.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 396px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+.testimonials-content .heading {
+    padding: 20px;
+}
+
+.testimonials-slider {
+    background-color: #09325B;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 24px;
+}
+
+.testimonial-title {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 10px 0 15px;
+    color: #09325B;
+}
+
+.testimonial-desc {
+    font-size: 16px;
+    color: #363A3D;
+    margin-bottom: 30px;
+}
+
+.testimonial-user {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.project-highlights {
+    background-color: #F9FBFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+.register-now {
+    background-color: #09325B;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.register-now .img-person {
+    position: relative;
+    top: -120px;
+}
+
+.register-now-content {
+    position: relative;
+    top: -100px;
+}
+
+.register-now-content .btn {
+    width: 195px;
+}
+
+.bg-shadow {
+    position: relative;
+    height: 36px;
+}
+
+.project-card {
+    margin-bottom: 50px;
+}
+
+.project-box {
+    background-color: #09325B;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.project-title {
+    font-size: 20px;
+    color: #09325B;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.project-desc {
+    font-size: 18px;
+    color: #363A3D;
+    margin: 0;
+}
+
+.register-now-content-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.program-card {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 24px;
+    background-size: cover;
+}
+
+.program-card-one {
+    background-image: url(../images/man-with-glasses-student-computer-science-class-person-uses-computer.png);
+}
+
+.program-card-two {
+    background-image: url(../images/cheerful-indian-asian-young-group-college-students-friends-walking-campus-corridor.png);
+}
+
+.program-card-three {
+    background-image: url(../images/portrait-businessman-smiling.png);
+}
+
+.program-card-four {
+    background-image: url(../images/portrait-content-creator.png);
+}
+
+.program-content {
+    background: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-size: cover;
+}
+
+.program-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.program-title span {
+    color: #FF1261;
+}
+
+.program-desc {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faq {
+    background-color: #F9FBFF;
+    padding: 50px 0;
+    border-radius: 20px;
+    margin: 60px 0;
+}
+
+.accordion-item, .accordion-button, .accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.accordion-button {
+    font-size: 22px;
+}
+
+.accordion-body {
+    font-size: 20px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.footer {
+    background-color: #09325B;
+    color: white;
+}
+
+.footer-tagline {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+.footer h4 {
+    font-size: 14px;
+    line-height: 32px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #FF1261;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #FF1261;
+    border: 2px solid #C10040;
+}
+
+.btn-primary {
+    border: 2px solid #C10040;
+}
+
+.carousel-indicators {
+    bottom: -120px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active[data-bs-target]{
+    background-color: #FF1261 !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white;
+}
+
+.carousel-arrows {
+    position: absolute;
+    bottom: -75px;
+    right: 0;
+    z-index: 1;
+    width: 110px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 44px;
+    background: white;
+    height: 44px;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.carousel-control-next:hover,  .carousel-control-prev:hover {
+    background-color: #FF1261
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 20px;
+}
+
+.border-line {
+    background-image: url(../images/border-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+    background-size: contain;
+}
+
+.border-line-two {
+    background-image: url(../images/border-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 10px;
+}
+
+.border-line-three {
+    background-image: url(../images/border-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 16px;
+    }
+
+    .banner-section .btn {
+        width: auto;
+    }
+
+    .collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-section img {
+        padding-right: 60px;
+    }
+
+    .nav-link {
+      padding: 0 20px !important;
+    }
+
+    .banner-section {
+        padding: 0;
+    }
+
+    .banner-tag {
+        font-size: 16px;
+    }
+
+    .banner-desc {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .heading {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    .banner-content {
+        padding: 30px ;
+    }
+
+    .learn-section{
+        padding: 60px;
+    }
+
+    .number {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .learn-box {
+        margin-bottom: 60px;
+        padding-left: 30px;
+    }
+
+    .testimonials-content {
+        height: 688px;
+    }
+
+    .testimonial-title {
+        margin: 15px 0 25px;
+    }
+
+    .testimonial-desc {
+        margin-bottom: 40px;
+    }
+
+    .testimonials-content .heading {
+        padding: 30px;
+    }
+
+    .project-highlights {
+        padding: 75px 80px 40px;
+        margin: 100px 0;
+    }
+
+    .register-now {
+        width: 398px;
+        height: 570px;
+        margin-top: 0;
+    }
+
+    .register-now-content-title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .register-now .img-person {
+        position: relative;
+        top: -185px;
+    }
+    
+    .register-now-content {
+        position: relative;
+        top: -175px;
+    }
+
+    .accordion {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 60px;
+    }
+
+    .border-line, .border-line-two, .border-line-three  {
+        padding-bottom: 20px;
+    }
+    
+  }
