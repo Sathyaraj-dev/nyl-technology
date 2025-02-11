@@ -244,6 +244,25 @@
     position: absolute;
     height: 80px;
     z-index: 99;
+    margin-top: -36%;
+}
+
+@media (min-width: 380px) {
+    .bg-shadow {
+        margin-top: -14%;
+    }
+}
+
+@media (min-width: 415px) {
+    .bg-shadow {
+        margin-top: -7%;
+    }
+}
+
+@media (min-width: 500px) {
+    .bg-shadow {
+        margin-top: 0;
+    }
 }
 
 .project-card {
@@ -480,6 +499,26 @@
     background-position: bottom center;
     padding-bottom: 15px;
 }
+
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+    margin: 0;
+  }
+  @keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
 
 @media (max-width: 767px) {
     .user-section {
